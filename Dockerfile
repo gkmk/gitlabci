@@ -1,5 +1,5 @@
 
-FROM gitlab/dind
+FROM laradock/workspace
 LABEL Name=gitlabci Version=0.0.1
 
 ADD . /home/
