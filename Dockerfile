@@ -1,5 +1,5 @@
 
-FROM laradock/workspace
+FROM alpine
 LABEL Name=gitlabci Version=0.0.1
 
 ADD . /home/
