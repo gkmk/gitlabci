@@ -2,7 +2,7 @@
 FROM gitlab/dind
 LABEL Name=gitlabci Version=0.0.1
 
-RUN apt-get update && apt-get upgrade
+RUN sudo apt-get update && sudo apt-get upgrade -y
 
 ADD . /home/
 
